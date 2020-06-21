@@ -2,24 +2,35 @@
 <html>
     <head>
         <style>
+            html{
+                height:100vh;
+                width:100vw;
+
+            }
            
             body{
                 margin:0;
+                
+                
             }
             /*header start*/
             header{
                 background-color:navy;
-                
+                height:10vh;
+                width:100vw;
             }
             .coal{
-                height:9vh;
+             
+                height:90%;
             }
             P{
+                font-weight: 900;
                 position:relative;
                 display:inline;
-                bottom:2.5vh;
-                left:18vw;
-                font-size:5vh;
+                bottom:30%;
+                left:17%;
+                right:17%;
+                font-size:2.3rem;
                 color:white;
             }
             nav{
@@ -41,11 +52,11 @@
                 
                 box-sizing: border-box;
                 display:block;
-                height:10vh;
+                height:20%;
                 text-decoration: none;
                 color:black;
                 text-align: center;
-                padding-top:2vh;
+                padding-top:10%;
                 background-color:rgba(138, 145, 148, 0.521);
             }
             a:hover{
@@ -53,9 +64,9 @@
             }
             .content{
                 margin-top: 10vh;
-                
-                height:30vh;
-                width:12vw;
+               
+                height:50vh;
+                width:15vw;
                 display:none;
                 
             }
@@ -68,35 +79,28 @@
             .user{
                 height:5vh;
                 position:relative;
-                left:25vw;
-                bottom:1.5vh;
+                left:24%;
+                bottom:1.8vh;
                 
             }
             .welcome{
-                font-size:2.4vh;
+                font-size:1.2rem;
                 position:relative;
-                bottom:3.5vh;
-                left:25vw;
+                bottom:37%;
+                left:24%;
                 
             }
            /*header end*/
-            .sidepanel{
-                margin-top:5vh;
-                float:left;
-                height:40vh;
-                width:15vw;
-                background-color: navy;
-            }
-            .data{
-                margin-top:15vh;
-                padding-top:3vh;
-            }
+            
+          
             fieldset{
                    position:relative;
-                   top:10vh;
-                   left:17vw;
+                   top:20vh;
+                   left:25vw;
                    width:50vw;
                    background-color: navy;
+                   border-radius:12px;
+                  
             }
             table{
                 border:solid navy;
@@ -105,6 +109,7 @@
             caption{
                 color:white;
             }
+            
         </style>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,7 +119,7 @@
         <header>
            <img class="coal" src="http://beta.coalindia.in/static/images/logo.png">
            <p>COAL PRODUCTION DAILY DATATBASE</p>
-           <img class="user" src="images/user.png">
+           <img class="user" src="https://cdn1.iconfinder.com/data/icons/instagram-ui-glyph/48/Sed-09-512.png">
            <p class="welcome">welcome {username}</p>
            <nav>
            <div class="hamburg"></div>
@@ -128,14 +133,14 @@
          
              <a href="#">CONTACT US</a>  
 
+             <a href="#">SAVED DATABASES</a>
+
              
            </div>
            </nav>
         </header>
         <section>
-            <div class="sidepanel">
-                <a href="#" class="data">SAVED DATABASES</a>
-            </div>
+            
             <fieldset>
                 <table>
                     <tr>
@@ -155,9 +160,9 @@
 
                     </tr>
                 </table>
-                <input type="submit" style="margin-left:22vw;cursor:pointer">
+                <input type="submit" style="margin-left:45%;cursor:pointer">
             </fieldset>
-            <fieldset style="margin-top:18vh;left:9vw;">
+            <fieldset style="margin-top:18vh;left:17vw;">
                 <table>
                     <tr>
                         <caption><b>TRANSPORT TABLE<b></caption>
@@ -181,7 +186,7 @@
 
                     </tr>
                 </table>
-                <input type="submit" style="margin-left:30vw;cursor:pointer;">
+                <input type="submit" style="margin-left:47%;cursor:pointer;">
             </fieldset>
         </section>
     </body>
